@@ -1,0 +1,41 @@
+
+.slider-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.slide {
+  text-align: center;
+}
+
+.slide img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px; 
+}
+
+
+.slick-dots {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  list-style: none;
+  text-align: center;
+}
+
+.slick-dots li {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.slick-dots li button {
+  font-size: 10px;
+  color: #888; 
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.slick-dots li button:hover {
+  color: #333; 
+}
